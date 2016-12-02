@@ -1,0 +1,11 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 896M
+  instances: 2
+  domain: mybluemix.net
+  name: demo-nosql-java-2
+  host: demo-nosql-java-2
+  disk_quota: 1024M
+  services:
+  - Auto-Scaling-8f
+  - demo-nosql-java-2-cloudantNoSQLDB
